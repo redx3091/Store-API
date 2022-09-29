@@ -1,0 +1,21 @@
+{
+  "name": "store-api",
+  "version": "1.0.0",
+  "description": "store api for products",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "store",
+    "api"
+  ],
+  "author": "Christian Ayala (devchristian91@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^6.6.2"
+  }
+}
